@@ -1,22 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image, TouchableOpacity, ScrollView } from 'react-native';
-import Logo from './assets/logoinst.png';
+import Logo from './src/assets/logoinst.png';
 import { AntDesign } from '@expo/vector-icons';
 import { Feather } from '@expo/vector-icons';
+import Header from "./src/components/Header";
 
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <View style={styles.header}>
-        <Image style={{ width: 200, height: 60 }} source={Logo} />
-        <StatusBar style="auto" />
-        <View style={styles.edit}>
-          <TouchableOpacity><AntDesign name="hearto" size={35} color="black" style={{}} /></TouchableOpacity>
-          <TouchableOpacity><Feather name="message-circle" size={35} color="black" /></TouchableOpacity>
-        </View>
-      </View>
-
+      <Header />
       <ScrollView contentContainerStyle={{ gap: 8, height: 100, }} horizontal
         style={{ flexDirection: "row", gap: 16, marginHorizontal: 10 }}
         showsHorizontalScrollIndicator={false}>
@@ -74,15 +67,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     marginHorizontal: 16,
     marginVertical: 35,
-  },
-  header: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-  },
-  edit: {
-    flexDirection: 'row',
-    padding: 10,
-    gap: 5,
   },
 
 });
