@@ -1,7 +1,7 @@
 
 import { View, StyleSheet } from "react-native";
 import FotoPerfil from "./src/assets/image1.avif";
-import InfoProfile from "./src/components/infoProfile";
+import InfoProfile from "./src/components/InfoProfile";
 
 export default function App() {
   return (
