@@ -22,6 +22,7 @@ export default function InfoProfile({image,publi,followers,following,description
 
         </View>
 
+
       );
 }
 
