@@ -1,6 +1,6 @@
 import { StyleSheet, Image, ScrollView, TouchableOpacity } from "react-native";
-import Fake1 from "../../assets/fake-feminino.jpg";
-import Fake2 from "../../assets/fake-masculino.jpg";
+import Fake1 from "../../assets/img1.webp";
+import Fake2 from "../../assets/img2.jpg";
 
 export default function Stories() {
   return (

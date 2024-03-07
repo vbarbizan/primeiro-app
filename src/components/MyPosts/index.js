@@ -23,7 +23,7 @@ export default function MyPosts() {
         </View>
 
 
-            <View style={styles.post}>
+        <View style={styles.post}>
             <Image source={Post} style={styles.image} />
             <Image source={Post} style={styles.image} />
             <Image source={Post} style={styles.image} />
