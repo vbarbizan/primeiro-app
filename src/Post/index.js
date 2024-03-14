@@ -17,7 +17,7 @@ export default function Post({ profileimg, profileName, postImage, description }
         <Feather name="more-vertical" size={24} color="black" />
 
       </View>
-      <Image style={{ width: "100%", height: 300 }} source={postImage} />
+      <Image style={{ width: "100%", height: 400, marginTop:10 }} source={postImage} />
       <View style={{ flexDirection: "row", justifyContent: "space-between", marginVertical: 8 }}>
 
         <View style={{ flexDirection: "row", gap: 8 }}>
