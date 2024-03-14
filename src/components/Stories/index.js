@@ -2,6 +2,8 @@ import { StyleSheet, Image, ScrollView, TouchableOpacity } from "react-native";
 import Fake1 from "../../assets/img1.webp";
 import Fake2 from "../../assets/img2.jpg";
 
+
+
 export default function Stories() {
   return (
     <ScrollView
@@ -27,7 +29,11 @@ export default function Stories() {
       <TouchableOpacity>
         <Image style={styles.story} source={Fake2} />
       </TouchableOpacity>
+      
+
     </ScrollView>
+
+  
   );
 }
 

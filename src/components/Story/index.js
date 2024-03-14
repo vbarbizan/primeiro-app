@@ -1,7 +1,7 @@
 import { StyleSheet, TouchableOpacity, Image } from "react-native";
 
 
-export default function Story (Image) {
+export default function Story (image) {
     return (
         <TouchableOpacity>
           <Image style={styles.story} source={image} />

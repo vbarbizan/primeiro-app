@@ -8,7 +8,6 @@ export default function Profile() {
   return (
     <View
       style={styles.container}>
-
      <InfoProfile
       image={FotoPerfil}
       publi= {250 }
@@ -19,7 +18,6 @@ export default function Profile() {
 
       <MyPosts/>
       
-
     </View>
   );
 }

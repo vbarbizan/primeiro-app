@@ -2,7 +2,7 @@
 import { MaterialIcons } from '@expo/vector-icons';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { View, StyleSheet, TouchableOpacity,Image } from "react-native";
-import Post from "../../assets/post.jpg"
+import Post from "../../assets/post.jpg";
 
 export default function MyPosts() {
     return(
@@ -34,7 +34,11 @@ export default function MyPosts() {
             <Image source={Post} style={styles.image} />
             <Image source={Post} style={styles.image} />
             </View>
+
+        
         </View>
+
+        
     );
 
 }
@@ -42,5 +46,6 @@ export default function MyPosts() {
     icons: { justifyContent: "space-around", flexDirection:"row", marginTop:30},
     image: { width:"33.3%", height:120, borderColor:"white", borderWidth:1},
     post: { flexDirection:"row", flexWrap:"wrap", marginTop:15},
+
 
 });
