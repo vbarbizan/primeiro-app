@@ -13,6 +13,7 @@ export default function Home() {
         flex: 1,
         marginVertical: 32,
         marginHorizontal: 16,
+    
       }}
     >
       <Header />

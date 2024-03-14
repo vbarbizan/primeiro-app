@@ -12,7 +12,7 @@ export default function Post({ profileimg, profileName, postImage, description }
         }}>
         <Image
           source={profileimg}
-          style={{ width: 60, height: 60, borderRadius: 50 }} />
+          style={{ width: 50, height: 50, borderRadius: 50 }} />
         <Text style={{ flex: 1, marginLeft: 16 }}>{profileName}</Text>
         <Feather name="more-vertical" size={24} color="black" />
 
@@ -20,8 +20,8 @@ export default function Post({ profileimg, profileName, postImage, description }
       <Image style={{ width: "100%", height: 400, marginTop:10 }} source={postImage} />
       <View style={{ flexDirection: "row", justifyContent: "space-between", marginVertical: 8 }}>
 
-        <View style={{ flexDirection: "row", gap: 8 }}>
-          <MaterialCommunityIcons
+        <View style={{ flexDirection: "row", gap: 8, }}>
+            <MaterialCommunityIcons
             name="cards-heart-outline" size={28} color="black"
           />
 
